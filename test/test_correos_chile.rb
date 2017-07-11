@@ -5,6 +5,6 @@ require 'correos_chile'
 class CorreosChileTest < Minitest::Test
   def test_tracking_search
     assert_equal String,
-                 CorreosChile.search_order('999010461678').status.class
+                 CorreosChile.find('3072766977749').status.class
   end
 end

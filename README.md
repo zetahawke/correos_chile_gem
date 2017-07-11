@@ -9,4 +9,4 @@ gem 'correos_chile'
 
 ## Usage
 
-It will scrap last order status, call it like: CorreosChile.search_order('<tracking_number>')
+It will scrap last order status, call it like: Correos.find('<tracking_number>')

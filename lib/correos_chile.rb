@@ -1,5 +1,5 @@
 # This class will retreive some information according to param
-module CorreosChile
+module Correos
   require 'correos_chile/order'
   require 'httparty'
   require 'nokogiri'
@@ -15,7 +15,7 @@ module CorreosChile
     composed_word
   end
 
-  def self.search_order(tracking_number)
+  def self.find(tracking_number)
     form_url = 'http://seguimientoweb.correos.cl/ConEnvCorreos.aspx'
     form_data = {
       obj_key: 'Cor398-cc',
