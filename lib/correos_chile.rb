@@ -1,5 +1,5 @@
 # This class will retreive some information according to param
-module Correos
+module CorreosChile
   require 'correos_chile/order'
   require 'httparty'
   require 'nokogiri'
