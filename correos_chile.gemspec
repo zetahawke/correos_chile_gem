@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'correos_chile'
-  s.version     = '0.0.1'
-  s.date        = '2017-07-10'
+  s.version     = '0.0.2'
+  s.date        = '2017-07-11'
   s.summary     = 'retreive tracking info'
   s.description = 'This gem will give some tracking information'
   s.authors     = ['Zetahawke']
